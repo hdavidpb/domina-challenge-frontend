@@ -2,7 +2,7 @@
 
 - Tener instalado node.js
 - Instalar dependencia con el comando npm install
-- Correr el proyecto con el comando "npm run satrt:dev"
+- Correr el proyecto con el comando "npm run dev"
 
 ## Nota:
 
