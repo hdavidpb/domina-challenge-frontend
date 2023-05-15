@@ -1,0 +1,44 @@
+.task-page-container {
+  max-width: 2500px;
+  height: "90vh";
+
+  background: linear-gradient(
+    328deg,
+    rgba(0, 187, 247, 0.8799894957983193) 0%,
+    rgba(255, 255, 255, 1) 51%
+  );
+  padding: 0;
+}
+
+.task-layout-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  gap: 16px;
+}
+.task-input-container {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.update-input {
+  width: 100%;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .task-layout-container {
+    padding: 5px;
+  }
+
+  .task-input-container {
+    width: 100%;
+  }
+}
